@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Totem Alarm — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 3rem 1.25rem 5rem; max-width: 42rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #16121f; background: #fbfaff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ece9f5; background: #16121f; }
+    h1, h2 { color: #fff; }
+    .lead { background: #221c33; border-color: #372d52; }
+    details { border-color: #372d52; }
+  }
+  h1 { font-size: 1.9rem; letter-spacing: -0.02em; margin-bottom: .25rem; }
+  .sub { color: #6b6580; margin-top: 0; }
+  h2 { font-size: 1.05rem; margin-top: 2.25rem; }
+  .lead {
+    background: #eeebff; border: 1px solid #ddd7fb; border-radius: 12px;
+    padding: 1rem 1.15rem; margin: 1.75rem 0;
+  }
+  details { border: 1px solid #e7e4f0; border-radius: 10px; padding: .75rem 1rem; margin-bottom: .6rem; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: .6rem 0 0; }
+  a { color: #5b4be8; }
+</style>
+</head>
+<body>
+  <h1>Totem Alarm — Support</h1>
+  <p class="sub">An alarm clock you switch off by scanning an NFC tag.</p>
+
+  <div class="lead">
+    <strong>Need help?</strong> Email
+    <a href="mailto:SUPPORT_EMAIL_HERE">SUPPORT_EMAIL_HERE</a>.
+    I usually reply within a couple of days.
+  </div>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>What kind of NFC tag do I need?</summary>
+    <p>
+      Any blank NDEF-formatted NFC sticker or tag — NTAG213, NTAG215 and NTAG216
+      all work and are inexpensive online. Stick it somewhere you have to get out
+      of bed to reach.
+    </p>
+  </details>
+
+  <details>
+    <summary>Scanning isn't working.</summary>
+    <p>
+      Hold the very top of the phone flat against the tag; the NFC antenna sits at
+      the top edge, not the middle. Totem needs an iPhone 7 or later. A metal
+      surface directly behind the tag can also block the read — try moving it.
+    </p>
+  </details>
+
+  <details>
+    <summary>I've lost my tag.</summary>
+    <p>
+      On the ringing screen, tap "Lost your tag?" and confirm with Face ID. This
+      is limited to twice every 30 days on purpose, and you'll be asked to
+      register a replacement tag straight afterwards.
+    </p>
+  </details>
+
+  <details>
+    <summary>My alarm didn't go off.</summary>
+    <p>
+      Check that notifications are allowed for Totem in iOS Settings, and that the
+      app hasn't been force-quit from the app switcher — iOS won't let a closed
+      app play audio on its own. Note that Totem cannot override the physical mute
+      switch; only Apple's Critical Alerts can, and that isn't available to alarm
+      apps.
+    </p>
+  </details>
+
+  <details>
+    <summary>How do I cancel my subscription?</summary>
+    <p>
+      Open the iOS Settings app, tap your name at the top, then Subscriptions, and
+      choose Totem Alarm. Deleting the app does not cancel a subscription.
+    </p>
+  </details>
+
+  <details>
+    <summary>I subscribed but the app still shows the paywall.</summary>
+    <p>
+      Tap "Restore purchases" on that screen. Make sure you're signed in with the
+      same Apple ID you subscribed with.
+    </p>
+  </details>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="./">privacy policy</a>.</p>
+</body>
+</html>
